@@ -1,0 +1,396 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: simple-deb-packet
+Upstream-Contact: rituparn <rituparn@shukla.ru>
+Source: <url://example.com>
+#
+# Please double check copyright with the licensecheck(1) command.
+
+Files:     .gitignore
+           README.md
+           cmd/litGit/.gitkeep
+           cmd/litGit/main.go
+           docs/RU_DOCS.md
+           docs/usage.md
+           go.mod
+           go.sum
+           internal/commands/.gitkeep
+           internal/commands/bet.go
+           internal/commands/cap.go
+           internal/commands/rizz.go
+           internal/commands/root.go
+           internal/commands/slay.go
+           internal/commands/snatch.go
+           internal/commands/vibes.go
+           internal/commands/yeet.go
+           internal/commands/yoink.go
+           internal/utils/.gitkeep
+           internal/utils/gitAdd.go
+           internal/utils/gitClone.go
+           internal/utils/gitCommit.go
+           internal/utils/gitInit.go
+           internal/utils/gitPull.go
+           internal/utils/gitPush.go
+           internal/utils/gitReset.go
+           internal/utils/gitStatus.go
+           makeScript.sh
+           pkg/version/.gitkeep
+           pkg/version/version.go
+           vendor/github.com/inconshreveable/mousetrap/README.md
+           vendor/github.com/inconshreveable/mousetrap/trap_others.go
+           vendor/github.com/inconshreveable/mousetrap/trap_windows.go
+           vendor/github.com/spf13/cobra/.gitignore
+           vendor/github.com/spf13/cobra/.mailmap
+           vendor/github.com/spf13/cobra/CONTRIBUTING.md
+           vendor/github.com/spf13/cobra/MAINTAINERS
+           vendor/github.com/spf13/cobra/Makefile
+           vendor/github.com/spf13/cobra/README.md
+           vendor/github.com/spf13/pflag/.gitignore
+           vendor/github.com/spf13/pflag/.travis.yml
+           vendor/github.com/spf13/pflag/README.md
+           vendor/github.com/spf13/pflag/bool.go
+           vendor/github.com/spf13/pflag/bool_slice.go
+           vendor/github.com/spf13/pflag/bytes.go
+           vendor/github.com/spf13/pflag/count.go
+           vendor/github.com/spf13/pflag/duration.go
+           vendor/github.com/spf13/pflag/duration_slice.go
+           vendor/github.com/spf13/pflag/float32.go
+           vendor/github.com/spf13/pflag/float32_slice.go
+           vendor/github.com/spf13/pflag/float64.go
+           vendor/github.com/spf13/pflag/float64_slice.go
+           vendor/github.com/spf13/pflag/int.go
+           vendor/github.com/spf13/pflag/int16.go
+           vendor/github.com/spf13/pflag/int32.go
+           vendor/github.com/spf13/pflag/int32_slice.go
+           vendor/github.com/spf13/pflag/int64.go
+           vendor/github.com/spf13/pflag/int64_slice.go
+           vendor/github.com/spf13/pflag/int8.go
+           vendor/github.com/spf13/pflag/int_slice.go
+           vendor/github.com/spf13/pflag/ip.go
+           vendor/github.com/spf13/pflag/ip_slice.go
+           vendor/github.com/spf13/pflag/ipmask.go
+           vendor/github.com/spf13/pflag/ipnet.go
+           vendor/github.com/spf13/pflag/string.go
+           vendor/github.com/spf13/pflag/string_array.go
+           vendor/github.com/spf13/pflag/string_slice.go
+           vendor/github.com/spf13/pflag/string_to_int.go
+           vendor/github.com/spf13/pflag/string_to_int64.go
+           vendor/github.com/spf13/pflag/string_to_string.go
+           vendor/github.com/spf13/pflag/uint.go
+           vendor/github.com/spf13/pflag/uint16.go
+           vendor/github.com/spf13/pflag/uint32.go
+           vendor/github.com/spf13/pflag/uint64.go
+           vendor/github.com/spf13/pflag/uint8.go
+           vendor/github.com/spf13/pflag/uint_slice.go
+           vendor/modules.txt
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     vendor/github.com/spf13/cobra/.golangci.yml
+           vendor/github.com/spf13/cobra/active_help.go
+           vendor/github.com/spf13/cobra/args.go
+           vendor/github.com/spf13/cobra/bash_completions.go
+           vendor/github.com/spf13/cobra/bash_completionsV2.go
+           vendor/github.com/spf13/cobra/completions.go
+           vendor/github.com/spf13/cobra/fish_completions.go
+           vendor/github.com/spf13/cobra/flag_groups.go
+           vendor/github.com/spf13/cobra/shell_completions.go
+           vendor/github.com/spf13/cobra/zsh_completions.go
+Copyright: 2013-2023 The Cobra Authors
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     vendor/github.com/spf13/cobra/command.go
+Copyright: 2013-2023 The Cobra Authors
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Package cobra is a commander providing a simple interface to create powerful modern CLI interfaces.
+ In addition to providing an interface, Cobra simultaneously provides a controller to organize your application code.
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     vendor/github.com/spf13/cobra/cobra.go
+Copyright: 2013-2023 The Cobra Authors
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ Commands similar to git, go tools and other modern CLI tools
+ inspired by go, go-Commander, gh and subcommand
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     vendor/github.com/spf13/cobra/command_win.go
+Copyright: 2013-2023 The Cobra Authors
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ go:build windows
+ +build windows
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     vendor/github.com/spf13/cobra/powershell_completions.go
+Copyright: 2013-2023 The Cobra Authors
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ The generated scripts require PowerShell v5.0+ (which comes Windows 10, but
+ can be downloaded separately for windows 7 or 8.1).
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     vendor/github.com/spf13/cobra/command_notwin.go
+Copyright: 2013-2023 The Cobra Authors
+License:   Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ go:build !windows
+ +build !windows
+ .
+ On Debian systems, the complete text of the Apache License Version 2.0
+  can be found in `/usr/share/common-licenses/Apache-2.0'.
+
+Files:     vendor/github.com/spf13/pflag/flag.go
+Copyright: 2009 The Go Authors.
+License:   __UNKNOWN__
+ Use of this source code is governed by a BSD-style
+ license that can be found in the LICENSE file.
+ .
+ Package pflag is a drop-in replacement for Go's flag package, implementing
+ POSIX/GNU-style --flags.
+ .
+ pflag is compatible with the GNU extensions to the POSIX recommendations
+ for command-line options. See
+
+Files:     vendor/github.com/spf13/cobra/LICENSE.txt
+Copyright: license to reproduce, prepare Derivative Works of, publicly display, publicly perform, sublicense, and distribute the Work and such Derivative Works in Source or Object form.
+License:   __UNKNOWN__
+ 3. Grant of Patent License. Subject to the terms and conditions of
+ this License, each Contributor hereby grants to You a perpetual,
+ worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+ (except as stated in this section) patent license to make, have made,
+ use, offer to sell, sell, import, and otherwise transfer the Work,
+ where such license applies only to those patent claims licensable
+ by such Contributor that are necessarily infringed by their
+ Contribution(s) alone or by combination of their Contribution(s)
+ with the Work to which such Contribution(s) was submitted. If You
+ institute patent litigation against any entity (including a
+ cross-claim or counterclaim in a lawsuit) alleging that the Work
+ or a Contribution incorporated within the Work constitutes direct
+ or contributory patent infringement, then any patent licenses
+ granted to You under this License for that Work shall terminate
+ as of the date such litigation is filed.
+ .
+ 4. Redistribution. You may reproduce and distribute copies of the
+ Work or Derivative Works thereof in any medium, with or without
+ modifications, and in Source or Object form, provided that You
+ meet the following conditions:
+ .
+ (a) You must give any other recipients of the Work or
+ Derivative Works a copy of this License; and
+ .
+ (b) You must cause any modified files to carry prominent notices
+ stating that You changed the files; and
+ .
+ (d) If the Work includes a "NOTICE" text file as part of its
+ distribution, then any Derivative Works that You distribute must
+ include a readable copy of the attribution notices contained
+ within such NOTICE file, excluding those notices that do not
+ pertain to any part of the Derivative Works, in at least one
+ of the following places: within a NOTICE text file distributed
+ as part of the Derivative Works; within the Source form or
+ documentation, if provided along with the Derivative Works; or,
+ within a display generated by the Derivative Works, if and
+ wherever such third-party notices normally appear. The contents
+ of the NOTICE file are for informational purposes only and
+ do not modify the License. You may add Your own attribution
+ notices within Derivative Works that You distribute, alongside
+ or as an addendum to the NOTICE text from the Work, provided
+ that such additional attribution notices cannot be construed
+ as modifying the License.
+ .
+ You may add Your own copyright statement to Your modifications and
+ may provide additional or different license terms and conditions
+ for use, reproduction, or distribution of Your modifications, or
+ for any such Derivative Works as a whole, provided Your use,
+ reproduction, and distribution of the Work otherwise complies with
+ the conditions stated in this License.
+ .
+ 5. Submission of Contributions. Unless You explicitly state otherwise,
+ any Contribution intentionally submitted for inclusion in the Work
+ by You to the Licensor shall be under the terms and conditions of
+ this License, without any additional terms or conditions.
+ Notwithstanding the above, nothing herein shall supersede or modify
+ the terms of any separate license agreement you may have executed
+ with Licensor regarding such Contributions.
+ .
+ 6. Trademarks. This License does not grant permission to use the trade
+ names, trademarks, service marks, or product names of the Licensor,
+ except as required for reasonable and customary use in describing the
+ origin of the Work and reproducing the content of the NOTICE file.
+ .
+ 7. Disclaimer of Warranty. Unless required by applicable law or
+ agreed to in writing, Licensor provides the Work (and each
+ Contributor provides its Contributions) on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+ implied, including, without limitation, any warranties or conditions
+ of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+ PARTICULAR PURPOSE. You are solely responsible for determining the
+ appropriateness of using or redistributing the Work and assume any
+ risks associated with Your exercise of permissions under this License.
+ .
+ 8. Limitation of Liability. In no event and under no legal theory,
+ whether in tort (including negligence), contract, or otherwise,
+ unless required by applicable law (such as deliberate and grossly
+ negligent acts) or agreed to in writing, shall any Contributor be
+ liable to You for damages, including any direct, indirect, special,
+ incidental, or consequential damages of any character arising as a
+ result of this License or out of the use or inability to use the
+ Work (including but not limited to damages for loss of goodwill,
+ work stoppage, computer failure or malfunction, or any and all
+ other commercial damages or losses), even if such Contributor
+ has been advised of the possibility of such damages.
+ .
+ 9. Accepting Warranty or Additional Liability. While redistributing
+ the Work or Derivative Works thereof, You may choose to offer,
+ and charge a fee for, acceptance of support, warranty, indemnity,
+ or other liability obligations and/or rights consistent with this
+ License. However, in accepting such obligations, You may act only
+ on Your own behalf and on Your sole responsibility, not on behalf
+ of any other Contributor, and only if You agree to indemnify,
+ defend, and hold each Contributor harmless for any liability
+ incurred by, or claims asserted against, such Contributor by reason
+ of your accepting any such warranty or additional liability.
+
+Files:     vendor/github.com/spf13/pflag/golangflag.go
+Copyright: 2009 The Go Authors.
+License:   __UNKNOWN__
+ Use of this source code is governed by a BSD-style
+ license that can be found in the LICENSE file.
+
+Files:     vendor/github.com/spf13/cobra/CONDUCT.md
+Copyright: __NO_COPYRIGHT__ in: vendor/github.com/spf13/cobra/CONDUCT.md
+License:   __UNKNOWN__ with unknown exception
+ ### Communication
+ Cobra maintainers will use GitHub issues and the [#cobra slack channel](https://gophers.slack.com/archives/CD3LP1199) as the primary means of communication with the community. This is to foster open communication with all users and contributors.
+ .
+ ### Breaking Changes
+ Breaking changes are generally allowed in the master branch, as this is the branch used to develop the next release of Cobra.
+ .
+ There may be times, however, when master is closed for breaking changes. This is likely to happen as we near the release of a new version.
+ .
+ Breaking changes are not allowed in release branches, as these represent minor versions that have already been released. These version have consumers who expect the APIs, behaviors, etc, to remain stable during the lifetime of the patch stream for the minor release.
+ .
+ Examples of breaking changes include:
+ - Removing or renaming exported constant, variable, type, or function.
+ - Updating the version of critical libraries such as `spf13/pflag`, `spf13/viper` etc...
+ - Some version updates may be acceptable for picking up bug fixes, but maintainers must exercise caution when reviewing.
+ .
+ There may, at times, need to be exceptions where breaking changes are allowed in release branches. These are at the discretion of the project's maintainers, and must be carefully considered before merging.
+ .
+ ### CI Testing
+ Maintainers will ensure the Cobra test suite utilizes the current supported versions of Golang.
+ .
+ ### Disclaimer
+ Changes to this document and the contents therein are at the discretion of the maintainers.
+ None of the contents of this document are legally binding in any way to the maintainers or the users.
+
+#----------------------------------------------------------------------------
+# huge files   (skipped):
+#         bin/yh-linux-amd64
+#         bin/yh-darwin-amd64
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.
+
+#----------------------------------------------------------------------------
+# License file: LICENSE
+ MIT License
+ .
+ Copyright (c) 2025 Rituparn Shukla
+ .
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
