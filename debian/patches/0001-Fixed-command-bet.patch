@@ -1,0 +1,28 @@
+From: Rituparn <shukla.r@phystech.edu>
+Date: Wed, 8 Oct 2025 23:09:24 +0300
+Subject: Fixed command bet
+
+---
+ internal/commands/bet.go | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/internal/commands/bet.go b/internal/commands/bet.go
+index 66647aa..6bb8081 100644
+--- a/internal/commands/bet.go
++++ b/internal/commands/bet.go
+@@ -7,7 +7,7 @@ import (
+ )
+ 
+ var betCommand = &cobra.Command{
+-	Use:   "bet",
++	Use:   "youbet",
+ 	Short: "Commits the changes to a repository",
+ 	Run: func(cmd *cobra.Command, args []string) {
+ 		commitMessage, _ := cmd.Flags().GetString("message")
+@@ -23,4 +23,4 @@ var betCommand = &cobra.Command{
+ 		}
+ 		fmt.Println("Bet. Commit made successfully. Vibes secured.")
+ 	},
+-}
++}
+\ No newline at end of file
